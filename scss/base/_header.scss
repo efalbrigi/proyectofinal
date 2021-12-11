@@ -5,8 +5,8 @@
 }
 
 header {
-    display: block;
-    background: url(../src/multimedia/img/generales/fondomaderanegra.jpeg);
+    display: flex;
+    background: url(/src/multimedia/img/generales/fondomaderanegra.jpeg);
     background-size: cover;
     height: 40vh;
     
@@ -36,10 +36,6 @@ header {
     border: none;
     text-align: center;
 }
-
-
-
-
 
 ul{     
     li {
