@@ -1,0 +1,37 @@
+/*configuraciones variables: sección productos destacados*/
+
+@mixin gridproducts ($display,$padding,$margin,$justifyitems,$gridtemplaterows,$backgroundcolor,$fontsize,$textdecor,$borde) {
+    display: $display;
+    padding-top: $padding;
+    margin-top: $margin;
+    justify-items: $justifyitems;
+    grid-template-rows: $gridtemplaterows;
+    background-color:$backgroundcolor;
+    font-size: $fontsize;
+    text-decoration: $textdecor;
+    border-bottom: $borde;
+}
+
+@mixin productos ($justifyitems,$padding,$borderadiusleft,$borderadiusright,$borderbottom,$backgroundcolor,$textalign) {
+    justify-items: $justifyitems;
+    padding: $padding;
+    border-bottom-left-radius: $borderadiusleft;
+    border-bottom-right-radius: $borderadiusright;
+    border-bottom: $borderbottom;
+    background-color: $backgroundcolor;
+    text-align: $textalign;
+}
+
+@mixin subtitulos ($font-weight,$margin-left,$margin-top) {
+    font-weight: $font-weight;
+    margin-left: $margin-left;
+    margin-top: $margin-top;
+}
+
+h2 {
+    @include subtitulos(750, 5%, 10%)
+}
+
+.descripcion-producto{
+    @include productos (center,5%,10px,10px,solid #fdcae1, #f5f5f5,center)
+}

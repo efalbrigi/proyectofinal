@@ -1,0 +1,66 @@
+/*diseño del footer prederterminado*/
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-top: -17%;
+    
+}
+
+#container-footer{
+    margin-left: 0;
+}
+
+strong{
+    color: whitesmoke;
+   
+}
+
+.secciones{
+    justify-content: center;
+}
+
+.img-mp {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.tel-contacto{
+    margin-top: 5%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 508px) {
+    footer {
+        background-color: black;
+        text-align: center;
+        padding-bottom: 5%;
+        margin-top: -57%;
+        
+    }
+
+    .secciones{
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+    .pagos{
+        padding-top: 5%;
+        padding-bottom: 15%;
+    }
+
+    
+    .contacto{
+        padding-top: 5%;
+        padding-bottom: 15%;
+    }
+
+
+    .js-newsletter{
+        padding-left: 0;
+    }
+
+
+}

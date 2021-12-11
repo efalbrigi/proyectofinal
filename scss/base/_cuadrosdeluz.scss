@@ -1,0 +1,45 @@
+/* Inicio configuración pagina cuadro de luz*/
+
+#galeria{
+    position: relative;
+}
+
+.img-bolsacompra{
+    width: auto;
+    height: 25px;    
+}
+
+
+
+.tittle-mira, .tittle-cuadrosdeluz {
+    align-items: center;
+    text-align: center; 
+}
+
+.img-cartanatal {
+    &:hover{
+    -webkit-transform:scale(1.4);
+    transform:scale(1.4);
+    transition: all 3s;
+    }
+}
+
+.img-love {
+    
+    width: auto;
+    &:hover {
+        -webkit-transform:scale(1.4);
+        transform:(1.4);
+        transition: all 3s;
+    }  
+}
+
+.img-magico {
+    
+    width: auto;
+    &:hover {
+        -webkit-transform:scale(1.4);
+        transform:(1.4);
+        transition: all 3s;
+    }  
+}

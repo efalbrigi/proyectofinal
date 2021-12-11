@@ -1,0 +1,79 @@
+/*configuración: pagina quienes somos*/
+
+.title-hayequipo {
+    justify-content: center;
+    padding-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+
+}
+
+.container-quienessomos {
+    display: flex;
+    text-align: center;
+    margin-left: -10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.container {
+    padding-top: 5%;
+  
+}
+
+.descripcion-equipo {
+   
+    color: black;
+}
+
+.row-parrafo{
+    justify-items: center;
+    margin-left: 15%;
+
+    p{
+        text-align: center;
+    }
+}
+
+.logo{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    width: 100%;
+}
+
+.img-logo {
+    justify-items: center;
+    max-width: 100%;
+    width: 10%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 508px) {
+
+    .modal-tittle{
+        display: flex;
+        font-size: 2rem;
+        padding-top: 10%;
+    }
+
+    .container-parrafo {
+        display: flex;
+       
+        
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .row-tips{
+        justify-items: center;
+        margin-left: 0;
+    
+    }
+
+
+
+
+
+
+}

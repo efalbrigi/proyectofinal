@@ -1,0 +1,99 @@
+/*diseño de header prederterminado*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+    background: url(../src/multimedia/img/generales/fondomaderanegra.jpeg);
+    background-size: cover;
+    height: 40vh;
+    
+}
+
+.modal-tittle{
+    display: flex;
+    padding-top: 3%;
+    justify-content: center;
+    
+}
+
+.navbar-nav{
+    margin-top: 5%;
+    text-align: center;
+    
+    
+}
+
+.navbar-collapse{
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.dropdown-menu {
+    border: none;
+    text-align: center;
+}
+
+
+
+
+
+ul{     
+    li {
+        display:block;
+        width: 200px; 
+        
+    
+        a{
+            text-decoration: none;
+        }  
+    }           
+}
+
+ul{
+    position: absolute;
+    display: none;
+
+    li{
+        
+        justify-items: center;
+        margin-top: 23px;
+        align-content: center;
+        text-decoration: none;
+    }
+}
+
+
+
+.nav-item{
+    &:hover {
+        border-bottom: solid  #fdcae1;
+    } 
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.nav-link, .ropdown-item{
+    justify-content: space-evenly;
+}
+
+
+.nav-item{
+    &:hover {
+        border-bottom: solid  #fdcae1;
+    } 
+}
+
+@media screen and (min-width: 300px) and (max-width: 508px) {
+
+   .navbar-toggler{
+       background-color: white;
+   }
+    
+}
+

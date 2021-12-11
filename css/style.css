@@ -1,0 +1,700 @@
+@charset "UTF-8";
+/* Lista de estilos universales*/
+/* header*/
+/* titulo*/
+.modal-tittle {
+  font-size: 3rem;
+  font-family: "Barlow Semi Condensed";
+  color: #efefef;
+  font-weight: 900;
+}
+
+/* Estilos seccion nav*/
+.nav-link {
+  font-family: "Barlow Semi Condensed";
+  font-size: 0.938rem;
+  color: #efefef;
+}
+
+.nav-link {
+  font-family: "Barlow Semi Condensed";
+  font-size: 0.938rem;
+  color: #efefef;
+}
+
+.dropdown-item {
+  font-family: "Barlow Semi Condensed";
+  font-size: 0.938rem;
+  font-weight: 900;
+  color: black;
+  background-color: white;
+}
+
+a {
+  font-family: "Barlow Semi Condensed";
+  font-size: 1.563rem;
+  font-weight: 900;
+  color: #efefef;
+}
+
+/* Estilos seccion productos destacadosr*/
+.tittle-productos {
+  font-family: "Barlow Semi Condensed";
+  font-size: 0.938rem;
+}
+
+.tittle-destacados {
+  font-family: "Barlow Semi Condensed";
+  font-size: 1.563rem;
+  font-weight: 900;
+}
+
+.button-productos {
+  font-family: "Barlow Semi Condensed";
+  font-size: 0.75rem;
+}
+
+/* Estilos seccion video*/
+h3 {
+  font-family: "Barlow Semi Condensed";
+  font-size: 0.938rem;
+  border-bottom: solid #fdcae1;
+}
+
+.instagram-link, .video {
+  background-color: black;
+}
+
+/* Estilos footer*/
+.tel-contacto, .email-contacto {
+  color: white;
+  font-family: Sans-serif;
+  font-size: 0.938rem;
+  font-weight: 700;
+}
+
+/* Estilos paginas conocenos y tips*/
+.title-hayequipo, .title-tips {
+  border-bottom: solid #fa2edf;
+  font-size: 1.563rem;
+  border-bottom: solid #fdcae1;
+}
+
+.tittle-instagram {
+  font-family: "Barlow Semi Condensed";
+  font-size: 1.563rem;
+  font-weight: 900;
+}
+
+.row-tips {
+  font-family: "Barlow Semi Condensed";
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+/* Estilos pagina cuadro de luz*/
+.item, .item-precio {
+  font-family: "Barlow Semi Condensed";
+  font-size: 0.938rem;
+  font-weight: 800;
+}
+
+/*configuraciones variables: sección productos destacados*/
+h2 {
+  font-weight: 750;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.descripcion-producto {
+  justify-items: center;
+  padding: 5%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: solid #fdcae1;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+/*diseño de header prederterminado*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: block;
+  background: url(../src/multimedia/img/generales/fondomaderanegra.jpeg);
+  background-size: cover;
+  height: 40vh;
+}
+
+.modal-tittle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar-nav {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.navbar-collapse {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+}
+
+.dropdown-menu {
+  border: none;
+  text-align: center;
+}
+
+ul li {
+  display: block;
+  width: 200px;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+ul {
+  position: absolute;
+  display: none;
+}
+
+ul li {
+  justify-items: center;
+  margin-top: 23px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  border-bottom: solid  #fdcae1;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.nav-link, .ropdown-item {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav-item:hover {
+  border-bottom: solid  #fdcae1;
+}
+
+@media screen and (min-width: 300px) and (max-width: 508px) {
+  .navbar-toggler {
+    background-color: white;
+  }
+}
+
+.container-carousel {
+  background-color: whitesmoke;
+}
+
+.carousel {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  justify-items: center;
+  width: 85%;
+}
+
+.carousel-inner img {
+  width: 100%;
+  border-radius: 10px;
+  border: solid black 10px;
+}
+
+.tittle-instagram {
+  padding-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+.seccion-video {
+  background-color: whitesmoke;
+}
+
+.video {
+  height: 50%;
+  width: 100%;
+}
+
+.instagram-link {
+  padding-top: 13%;
+  padding-bottom: 12.5%;
+  height: 100%;
+  text-align: center;
+}
+
+.seccion {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.link-soffio {
+  padding-top: 10%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 508px) {
+  .seccion-video {
+    display: block;
+    background-color: white;
+  }
+  .instagram-link {
+    background-color: #fdcae1;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+/*diseño del footer prederterminado*/
+footer {
+  background-color: black;
+  text-align: center;
+  padding-bottom: 5%;
+  margin-top: -17%;
+}
+
+#container-footer {
+  margin-left: 0;
+}
+
+strong {
+  color: whitesmoke;
+}
+
+.secciones {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.img-mp {
+  width: 70%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.tel-contacto {
+  margin-top: 5%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 508px) {
+  footer {
+    background-color: black;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-top: -57%;
+  }
+  .secciones {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .pagos {
+    padding-top: 5%;
+    padding-bottom: 15%;
+  }
+  .contacto {
+    padding-top: 5%;
+    padding-bottom: 15%;
+  }
+  .js-newsletter {
+    padding-left: 0;
+  }
+}
+
+.productos {
+  background-color: whitesmoke;
+}
+
+.destacados {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 10%;
+  padding-bottom: 3%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tittle-productos, .tittle-destacados {
+  text-align: center;
+}
+
+.tittle-destacados {
+  border-bottom: solid #fdcae1;
+}
+
+.container-productos {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 17%;
+}
+
+.img-productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px;
+  margin-top: 5%;
+  margin-bottom: 20%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.img-kit {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.img-kit:hover {
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+.kit-sahumador {
+  background-color: white;
+  height: 70%;
+  margin-right: 2%;
+  padding-bottom: 3%;
+  border-radius: 0px 0px 20px 20px;
+  border: 2px;
+}
+
+.cuadro-deluz {
+  background-color: white;
+  height: 70%;
+  margin-right: 2%;
+  padding-bottom: 3%;
+  border-radius: 0px 0px 20px 20px;
+  border: 2px;
+}
+
+.img-cuadrodeluz {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.img-cuadrodeluz:hover {
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+.altar {
+  background-color: white;
+  height: 70%;
+  padding-bottom: 3%;
+  border-radius: 0px 0px 20px 20px;
+  border: 2px;
+}
+
+.img-altar:hover {
+  -webkit-transform: scale(1.4);
+  transform: 1.4;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+.link-productos {
+  padding-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.link-productos button {
+  background-color: #fdcae1;
+  border: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 1%;
+  padding-left: 1%;
+  color: #ffffff;
+  fill: #ffffff;
+  font-weight: 700;
+}
+
+.link-productos a button:hover {
+  background-color: #fdcae1;
+  background-image: linear-gradient(114deg, #ff64f4 10%, rgba(255, 37, 122, 0.588971) 100%);
+}
+
+@media screen and (min-width: 300px) and (max-width: 508px) {
+  .row > * {
+    padding-right: 0;
+  }
+  .productos {
+    background-color: white;
+  }
+  .container-productos {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 0;
+  }
+  .link-productos {
+    padding-bottom: 5%;
+    margin-top: 5%;
+    text-align: center;
+  }
+  .link-productos button {
+    background-color: black;
+    border: none;
+    margin-top: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    color: #ffffff;
+    fill: #ffffff;
+    font-weight: 700;
+  }
+  .link-productos a button:hover {
+    background-color: #fdcae1;
+    background-image: linear-gradient(114deg, #ff64f4 10%, rgba(255, 37, 122, 0.588971) 100%);
+  }
+}
+
+/*configuración: pagina quienes somos*/
+.title-hayequipo {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.container-quienessomos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin-left: -10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.container {
+  padding-top: 5%;
+}
+
+.descripcion-equipo {
+  color: black;
+}
+
+.row-parrafo {
+  justify-items: center;
+  margin-left: 15%;
+}
+
+.row-parrafo p {
+  text-align: center;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.img-logo {
+  justify-items: center;
+  max-width: 100%;
+  width: 10%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 508px) {
+  .modal-tittle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 2rem;
+    padding-top: 10%;
+  }
+  .container-parrafo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .row-tips {
+    justify-items: center;
+    margin-left: 0;
+  }
+}
+
+/*configuración: tips*/
+a {
+  text-decoration: none;
+}
+
+.title-tips {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.container-tips {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin-left: -10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.container {
+  padding-top: 5%;
+}
+
+.row-tips {
+  justify-items: center;
+  margin-left: 15%;
+}
+
+.row-tips p {
+  text-align: center;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.img-logo {
+  max-width: 100%;
+  width: 5%;
+  margin-bottom: 3%;
+}
+
+footer {
+  margin-top: 0%;
+}
+
+.mujer-sahumando {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 508px) {
+  .modal-tittle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 2rem;
+    padding-top: 10%;
+  }
+  .container-tips {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .row-tips {
+    justify-items: center;
+    margin-left: 0;
+  }
+}
+
+.container-principal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin-left: -10%;
+  padding-top: 1%;
+}
+
+/* Inicio configuración pagina cuadro de luz*/
+#galeria {
+  position: relative;
+}
+
+.img-bolsacompra {
+  width: auto;
+  height: 25px;
+}
+
+.tittle-mira, .tittle-cuadrosdeluz {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.img-cartanatal:hover {
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+.img-love {
+  width: auto;
+}
+
+.img-love:hover {
+  -webkit-transform: scale(1.4);
+  transform: 1.4;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+.img-magico {
+  width: auto;
+}
+
+.img-magico:hover {
+  -webkit-transform: scale(1.4);
+  transform: 1.4;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+/*# sourceMappingURL=style.css.map */

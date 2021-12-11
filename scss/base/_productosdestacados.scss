@@ -1,0 +1,159 @@
+.productos{
+    background-color: whitesmoke;
+}
+
+.destacados {
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tittle-productos, .tittle-destacados {
+      text-align: center; 
+}
+
+.tittle-destacados {
+    border-bottom: solid #fdcae1;
+    
+}
+
+.container-productos{
+    justify-content: center;
+    margin-left: 17%;
+
+}
+.img-productos {
+    display: flex;
+    padding: 0px;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    justify-content: space-evenly;
+}
+
+.img-kit{
+   
+   border-radius: 20px 20px 0px 0px;
+    
+    &:hover{
+         -webkit-transform:scale(1.4);
+         transform:scale(1.4);
+         transition: all 3s;
+    }   
+}
+
+.kit-sahumador {
+    background-color: white;
+    height: 70%;
+    margin-right: 2%;
+    padding-bottom: 3%;
+    border-radius: 0px 0px 20px 20px;
+    border: 2px;
+    
+}
+
+
+.cuadro-deluz{
+    background-color: white;
+    height: 70%;
+    margin-right: 2%;
+    padding-bottom: 3%;
+    border-radius: 0px 0px 20px 20px;
+    border: 2px;
+    
+}
+
+
+.img-cuadrodeluz {
+    border-radius: 20px 20px 0px 0px;
+    &:hover{
+    -webkit-transform:scale(1.4);
+    transform:scale(1.4);
+    transition: all 3s;
+    }
+}
+
+
+.altar{
+    background-color: white;
+    height: 70%;
+    padding-bottom: 3%;
+    border-radius: 0px 0px 20px 20px;
+    border: 2px;
+    
+}
+
+.img-altar {
+    &:hover {
+        -webkit-transform:scale(1.4);
+        transform:(1.4);
+        transition: all 3s;
+    }  
+}
+
+
+.link-productos {
+    padding-bottom: 5%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+.link-productos button {
+    background-color: #fdcae1;
+    border: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    color:#ffffff;
+    fill: #ffffff;
+    font-weight: 700;
+}
+
+.link-productos a button:hover {
+    background-color:#fdcae1;
+    background-image: linear-gradient(114deg, rgba(255,100,244,1) 10%, rgba(255,37,122,0.5889706224286589) 100%);
+}
+
+@media screen and (min-width: 300px) and (max-width: 508px) {
+
+    .row>* {
+        padding-right: 0;
+    }
+
+    .productos{
+        background-color: white;
+    }
+    .container-productos{
+        justify-content: center;
+        margin-left: 0;
+    
+    }
+    
+    .link-productos {
+        padding-bottom: 5%;
+        margin-top: 5%;
+        text-align: center;
+    }
+    
+    
+    .link-productos button {
+        background-color: black;
+        border: none;
+        margin-top: 0;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 1%;
+        padding-left: 1%;
+        color:#ffffff;
+        fill: #ffffff;
+        font-weight: 700;
+    }
+    
+    .link-productos a button:hover {
+        background-color:#fdcae1;
+        background-image: linear-gradient(114deg, rgba(255,100,244,1) 10%, rgba(255,37,122,0.5889706224286589) 100%);
+    }
+}

@@ -1,0 +1,89 @@
+/*configuración: tips*/
+
+a{
+    text-decoration: none;
+   
+}
+
+
+.title-tips {
+    justify-content: center;
+    padding-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.container-tips {
+    display: flex;
+    text-align: center;
+    margin-left: -10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.container {
+    padding-top: 5%;
+}
+
+.row-tips{
+    justify-items: center;
+    margin-left: 15%;
+
+    p{
+        text-align: center;
+    }
+   
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.img-logo {
+    max-width: 100%;
+    width: 5%;
+    margin-bottom: 3%;
+}
+
+footer {
+    
+    margin-top: 0%;
+    
+}
+
+.mujer-sahumando{
+    display: block;
+    margin: auto;
+    width: 100%;
+    
+}
+
+@media screen and (min-width: 300px) and (max-width: 508px) {
+
+    .modal-tittle{
+        display: flex;
+        font-size: 2rem;
+        padding-top: 10%;
+    }
+
+    .container-tips {
+        display: flex;
+       
+        
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .row-tips{
+        justify-items: center;
+        margin-left: 0;
+    
+    }
+
+
+
+
+
+
+}

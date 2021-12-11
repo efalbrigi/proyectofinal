@@ -1,0 +1,50 @@
+.tittle-instagram{
+    padding-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.seccion-video{
+    background-color: whitesmoke;
+}
+.video{
+    height: 50%;
+    width: 100%;
+   
+}
+
+.instagram-link{
+    padding-top: 13%;
+    padding-bottom: 12.5%;
+    height: 100%;
+    text-align: center;
+}
+
+.seccion{
+    justify-content: center;
+}
+
+.link-soffio{
+    padding-top: 10%;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 508px) {
+
+    .seccion-video {
+        display: block;
+        background-color: white;
+    }
+
+    .instagram-link{
+        background-color: #fdcae1,;
+        padding-top: 25%;
+        padding-bottom: 25%;
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+}
