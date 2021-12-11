@@ -135,8 +135,8 @@ header {
   display: flex;
   padding-top: 3%;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .navbar-nav {
@@ -146,8 +146,8 @@ header {
 
 .navbar-collapse {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   justify-items: center;
 }
 
@@ -174,12 +174,12 @@ ul li {
   justify-items: center;
   margin-top: 23px;
   -ms-flex-line-pack: center;
-  align-content: center;
+      align-content: center;
   text-decoration: none;
 }
 
 .nav-item:hover {
-  border-bottom: solid #fdcae1;
+  border-bottom: solid  #fdcae1;
 }
 
 .dropdown:hover > .dropdown-menu {
@@ -188,12 +188,12 @@ ul li {
 
 .nav-link, .ropdown-item {
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .nav-item:hover {
-  border-bottom: solid #fdcae1;
+  border-bottom: solid  #fdcae1;
 }
 
 @media screen and (min-width: 300px) and (max-width: 508px) {
@@ -201,6 +201,7 @@ ul li {
     background-color: white;
   }
 }
+
 .container-carousel {
   background-color: whitesmoke;
 }
@@ -243,8 +244,8 @@ ul li {
 
 .seccion {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .link-soffio {
@@ -256,7 +257,6 @@ ul li {
     display: block;
     background-color: white;
   }
-
   .instagram-link {
     background-color: #fdcae1;
     padding-top: 25%;
@@ -266,6 +266,7 @@ ul li {
     margin-left: 0;
   }
 }
+
 /*diseño del footer prederterminado*/
 footer {
   background-color: black;
@@ -284,8 +285,8 @@ strong {
 
 .secciones {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .img-mp {
@@ -305,26 +306,23 @@ strong {
     padding-bottom: 5%;
     margin-top: -57%;
   }
-
   .secciones {
     margin-right: 0;
     margin-left: 0;
   }
-
   .pagos {
     padding-top: 5%;
     padding-bottom: 15%;
   }
-
   .contacto {
     padding-top: 5%;
     padding-bottom: 15%;
   }
-
   .js-newsletter {
     padding-left: 0;
   }
 }
+
 .productos {
   background-color: whitesmoke;
 }
@@ -336,12 +334,12 @@ strong {
   padding-top: 10%;
   padding-bottom: 3%;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .tittle-productos, .tittle-destacados {
@@ -354,8 +352,8 @@ strong {
 
 .container-productos {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-left: 17%;
 }
 
@@ -367,8 +365,8 @@ strong {
   margin-top: 5%;
   margin-bottom: 20%;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .img-kit {
@@ -453,24 +451,20 @@ strong {
   .row > * {
     padding-right: 0;
   }
-
   .productos {
     background-color: white;
   }
-
   .container-productos {
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-left: 0;
   }
-
   .link-productos {
     padding-bottom: 5%;
     margin-top: 5%;
     text-align: center;
   }
-
   .link-productos button {
     background-color: black;
     border: none;
@@ -483,17 +477,17 @@ strong {
     fill: #ffffff;
     font-weight: 700;
   }
-
   .link-productos a button:hover {
     background-color: #fdcae1;
     background-image: linear-gradient(114deg, #ff64f4 10%, rgba(255, 37, 122, 0.588971) 100%);
   }
 }
+
 /*configuración: pagina quienes somos*/
 .title-hayequipo {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 5%;
   margin-left: 20%;
   margin-right: 20%;
@@ -533,8 +527,8 @@ strong {
   display: flex;
   margin-top: 5%;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
 }
 
@@ -548,7 +542,7 @@ strong {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 1;
 }
 
@@ -595,17 +589,17 @@ body {
   opacity: 0;
   visibility: hidden;
   font-size: 13px;
-  letter-spacing: 0.5px;
+  letter-spacing: .5px;
 }
 
 .sidebar-navigation ul li .tooltip:before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: -4px;
   top: 10px;
   -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+          transform: rotate(45deg);
   width: 10px;
   height: 10px;
   background-color: inherit;
@@ -636,7 +630,6 @@ body {
     font-size: 2rem;
     padding-top: 10%;
   }
-
   .container-parrafo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -644,12 +637,12 @@ body {
     padding-top: 2%;
     padding-bottom: 2%;
   }
-
   .row-tips {
     justify-items: center;
     margin-left: 0;
   }
 }
+
 /*configuración: tips*/
 a {
   text-decoration: none;
@@ -657,8 +650,8 @@ a {
 
 .title-tips {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 5%;
   margin-left: 20%;
   margin-right: 20%;
@@ -693,8 +686,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .img-logo {
@@ -721,7 +714,6 @@ footer {
     font-size: 2rem;
     padding-top: 10%;
   }
-
   .container-tips {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -729,12 +721,12 @@ footer {
     padding-top: 2%;
     padding-bottom: 2%;
   }
-
   .row-tips {
     justify-items: center;
     margin-left: 0;
   }
 }
+
 .container-principal {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -756,8 +748,8 @@ footer {
 
 .tittle-mira, .tittle-cuadrosdeluz {
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
 }
 
@@ -789,7 +781,4 @@ footer {
   -webkit-transition: all 3s;
   transition: all 3s;
 }
-
-/*# sourceMappingURL=style.css.map */
-
 /*# sourceMappingURL=style.css.map */
