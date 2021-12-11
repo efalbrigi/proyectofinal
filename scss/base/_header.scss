@@ -1,8 +1,4 @@
 /*diseño de header prederterminado*/
-* {
-    margin: 0;
-    padding: 0;
-}
 
 header {
     display: flex;
@@ -74,13 +70,9 @@ header {
 
 .dropdown-content {
   display: none;
-  position: none;
   background-color: transparent;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
- 
- 
-  
 }
 
 

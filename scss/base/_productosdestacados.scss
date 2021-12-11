@@ -37,9 +37,9 @@
    border-radius: 20px 20px 0px 0px;
     
     &:hover{
-         -webkit-transform:scale(1.4);
-         transform:scale(1.4);
-         transition: all 3s;
+        -webkit-transform: scale (1.4);
+        transform:scale(1.4);
+        transition: all 3s;
     }   
 }
 
@@ -108,7 +108,6 @@
     padding-right: 1%;
     padding-left: 1%;
     color:#ffffff;
-    fill: #ffffff;
     font-weight: 700;
 }
 
@@ -148,7 +147,6 @@
         padding-right: 1%;
         padding-left: 1%;
         color:#ffffff;
-        fill: #ffffff;
         font-weight: 700;
     }
     

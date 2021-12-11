@@ -12,8 +12,8 @@
     border-bottom: $borde;
 }
 
-@mixin productos ($justifyitems,$padding,$borderadiusleft,$borderadiusright,$borderbottom,$backgroundcolor,$textalign) {
-    justify-items: $justifyitems;
+@mixin productos ($padding,$borderadiusleft,$borderadiusright,$borderbottom,$backgroundcolor,$textalign) {
+    
     padding: $padding;
     border-bottom-left-radius: $borderadiusleft;
     border-bottom-right-radius: $borderadiusright;
@@ -29,9 +29,9 @@
 }
 
 h2 {
-    @include subtitulos(750, 5%, 10%)
+    @include subtitulos(700, 5%, 10%)
 }
 
 .descripcion-producto{
-    @include productos (center,5%,10px,10px,solid #fdcae1, #f5f5f5,center)
+    @include productos (5%,10px,10px,solid #fdcae1, #f5f5f5,center)
 }
