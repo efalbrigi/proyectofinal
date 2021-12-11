@@ -50,6 +50,20 @@ $fuentestamaños:
 
 /* Estilos seccion nav*/
 
+.topnav,  .dropbtn{
+    font-size: nth($fuentestamaños,2);
+    font-family: nth($fuentes,2);
+    color: nth($colores,9);
+}
+
+.dropdown-content a{
+    font-size: nth($fuentestamaños,2);
+    font-family: nth($fuentes,2);
+    color: nth($colores,8);
+    background-color: nth($colores,8);
+    font-weight: nth($font-weight,1);
+
+}
 
 
 /* Estilos seccion productos destacadosr*/
