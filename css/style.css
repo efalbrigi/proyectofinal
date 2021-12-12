@@ -24,7 +24,7 @@
   font-weight: 700;
 }
 
-/* Estilos seccion productos destacadosr*/
+/* Estilos seccion productos destacados*/
 .tittle-productos {
   font-family: "Barlow Semi Condensed";
   font-size: 0.938rem;
@@ -46,10 +46,6 @@ h3 {
   font-family: "Barlow Semi Condensed";
   font-size: 0.938rem;
   border-bottom: solid #fdcae1;
-}
-
-.instagram-link, .video {
-  background-color: black;
 }
 
 /* Estilos footer*/
@@ -87,13 +83,12 @@ h3 {
 
 /*configuraciones variables: sección productos destacados*/
 h2 {
-  font-weight: 750;
+  font-weight: 700;
   margin-left: 5%;
   margin-top: 10%;
 }
 
 .descripcion-producto {
-  justify-items: center;
   padding: 5%;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -103,14 +98,9 @@ h2 {
 }
 
 /*diseño de header prederterminado*/
-* {
-  margin: 0;
-  padding: 0;
-}
-
 header {
   display: flex;
-  background: url(/src/multimedia/img/generales/fondomaderanegra.jpeg);
+  background: url(../src/multimedia/img/generales/fondomaderanegra.jpeg);
   background-size: cover;
   height: 40vh;
 }
@@ -167,7 +157,6 @@ header {
 
 .dropdown-content {
   display: none;
-  position: none;
   background-color: transparent;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -197,6 +186,63 @@ header {
   display: block;
 }
 
+@media screen and (min-width: 300px) and (max-width: 508px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  .topnav.responsive .dropdown {
+    float: none;
+  }
+
+  .topnav.responsive .dropdown-content {
+    position: relative;
+  }
+
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .dropdown-content a {
+    background-color: black;
+    margin-top: 3%;
+  }
+
+  .dropdown {
+    margin: 0;
+    padding: 0;
+  }
+
+  .dropdown .dropbtn {
+    margin-top: 1%;
+    padding: 0;
+  }
+}
 .container-carousel {
   background-color: whitesmoke;
 }
@@ -204,7 +250,6 @@ header {
 .carousel {
   margin-top: 1%;
   margin-bottom: 1%;
-  justify-items: center;
   width: 85%;
 }
 
@@ -218,31 +263,14 @@ header {
   padding-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.img-seccionsocial {
   margin-bottom: 5%;
 }
 
-.seccion-video {
-  background-color: whitesmoke;
-}
-
-.video {
-  height: 50%;
-  width: 100%;
-}
-
-.instagram-link {
-  padding-top: 13%;
-  padding-bottom: 12.5%;
-  height: 100%;
-  text-align: center;
-}
-
-.seccion {
-  justify-content: center;
-}
-
-.link-soffio {
-  padding-top: 10%;
+.mgusta, .amigas {
+  padding: 0;
 }
 
 @media screen and (min-width: 300px) and (max-width: 508px) {
@@ -265,7 +293,6 @@ footer {
   background-color: black;
   text-align: center;
   padding-bottom: 5%;
-  margin-top: -17%;
 }
 
 #container-footer {
@@ -274,6 +301,11 @@ footer {
 
 strong {
   color: whitesmoke;
+}
+
+.redessociales {
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .secciones {
@@ -295,7 +327,7 @@ strong {
     background-color: black;
     text-align: center;
     padding-bottom: 5%;
-    margin-top: -57%;
+    margin-top: 5%;
   }
 
   .secciones {
@@ -354,7 +386,7 @@ strong {
   border-radius: 20px 20px 0px 0px;
 }
 .img-kit:hover {
-  -webkit-transform: scale(1.4);
+  -webkit-transform: scale 1.4;
   transform: scale(1.4);
   transition: all 3s;
 }
@@ -414,7 +446,6 @@ strong {
   padding-right: 1%;
   padding-left: 1%;
   color: #ffffff;
-  fill: #ffffff;
   font-weight: 700;
 }
 
@@ -452,7 +483,6 @@ strong {
     padding-right: 1%;
     padding-left: 1%;
     color: #ffffff;
-    fill: #ffffff;
     font-weight: 700;
   }
 
@@ -462,10 +492,6 @@ strong {
   }
 }
 /*configuración: pagina quienes somos*/
-header {
-  background: url(../src/multimedia/img/generales/fondomaderanegra.jpeg);
-}
-
 .title-hayequipo {
   justify-content: center;
   padding-top: 5%;
@@ -491,7 +517,6 @@ header {
 }
 
 .row-parrafo {
-  justify-items: center;
   margin-left: 15%;
 }
 .row-parrafo p {
@@ -506,7 +531,6 @@ header {
 }
 
 .img-logo {
-  justify-items: center;
   max-width: 100%;
   width: 10%;
 }
@@ -527,46 +551,6 @@ header {
   .row-tips {
     justify-items: center;
     margin-left: 0;
-  }
-
-  .topnav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-  }
-
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  .topnav.responsive {
-    position: relative;
-  }
-
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
-  .topnav.responsive .dropdown {
-    float: none;
-  }
-
-  .topnav.responsive .dropdown-content {
-    position: relative;
-  }
-
-  .topnav.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
   }
 }
 /*configuración: tips*/
@@ -595,7 +579,6 @@ a {
 }
 
 .row-tips {
-  justify-items: center;
   margin-left: 15%;
 }
 .row-tips p {
@@ -611,10 +594,6 @@ a {
   max-width: 100%;
   width: 5%;
   margin-bottom: 3%;
-}
-
-footer {
-  margin-top: 0%;
 }
 
 .mujer-sahumando {
@@ -637,7 +616,6 @@ footer {
   }
 
   .row-tips {
-    justify-items: center;
     margin-left: 0;
   }
 }
