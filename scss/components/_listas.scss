@@ -1,7 +1,7 @@
 /* Lista de estilos universales*/
 
 $colores:
-#f1c40f,
+#ffffff,
 #FACC2E,
 #fa2edf,
 rgba(255, 255, 255, 0.75),
@@ -9,13 +9,16 @@ whitesmoke,
 white,
 black,
 #fdcae1,
-#efefef;
+#efefef,
+#555,
+#ddd;
 
 $bordes:
 solid #FACC2E,
 solid #fa2edf,
 solid black,
-solid #fdcae1;
+solid #fdcae1,
+solid #555;
 
 $fuentes:
 Sans-serif,
@@ -50,21 +53,36 @@ $fuentestamaños:
 
 /* Estilos seccion nav*/
 
-.topnav,  .dropbtn{
+.topnav,  .dropbtn, .topnav a{
     font-size: nth($fuentestamaños,2);
     font-family: nth($fuentes,2);
+    color: nth($colores,9);
+}
+
+.dropdown .dropbtn {
     color: nth($colores,9);
 }
 
 .dropdown-content a{
     font-size: nth($fuentestamaños,2);
     font-family: nth($fuentes,2);
-    color: nth($colores,8);
-    background-color: nth($colores,8);
+    color: nth($colores,10);
+    background-color: nth($colores,9);
     font-weight: nth($font-weight,1);
 
 }
 
+/* Estilos seccion productos carousel*/
+
+.container-carousel{
+
+    background-color: nth($colores,5);
+
+}
+
+.carousel-inner img{
+    border: nth($bordes,3) 10px;
+}
 
 /* Estilos seccion productos destacados*/
 
@@ -77,11 +95,25 @@ $fuentestamaños:
     font-family: nth($fuentes,2);
     font-size: nth($fuentestamaños,4);
     font-weight: nth($font-weight,3);
+    border-bottom: nth($bordes,4)
 }
 
 .button-productos {
     font-family: nth($fuentes,2);
     font-size: nth($fuentestamaños,1);
+}
+
+.productos{
+    background-color: nth($colores,5);
+}
+
+.link-productos button{
+    background-color: nth($colores,8);
+    color: nth($colores,1);
+}
+
+.altar, .cuadro-deluz, .kit-sahumador{
+    background-color: nth($colores,6);
 }
 
 /* Estilos seccion video*/
@@ -95,6 +127,14 @@ h3{
 
 
 /* Estilos footer*/
+
+footer{
+    background-color: nth($colores,7);
+}
+
+strong{
+    color: nth($colores,5 );
+}
 
 .tel-contacto,.email-contacto{
     color: nth($colores,6);
@@ -124,7 +164,30 @@ h3{
    
 }
 
+.descripcion-equipo {
+   
+    font-family: nth($fuentes,2);
+    font-size: nth($fuentestamaños,3);
+    font-weight: nth($font-weight,3);
+   
+}
+
 /* Estilos pagina cuadro de luz*/
+
+.tittle-mira{
+
+    font-family: nth($fuentes,2);
+    font-size: nth($fuentestamaños,2);
+}
+
+.tittle-cuadrosdeluz, .tittle-kit, .tittle-altar{
+
+   font-family: nth($fuentes,2);
+    font-size: nth($fuentestamaños,4);
+    font-weight: nth($font-weight,3);
+    border-bottom: nth($bordes,4)
+}
+
 
 .item, .item-precio {
     font-family: nth($fuentes,2);

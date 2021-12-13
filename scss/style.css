@@ -10,18 +10,31 @@
 }
 
 /* Estilos seccion nav*/
-.topnav, .dropbtn {
+.topnav, .dropbtn, .topnav a {
   font-size: 0.938rem;
   font-family: "Barlow Semi Condensed";
+  color: #efefef;
+}
+
+.dropdown .dropbtn {
   color: #efefef;
 }
 
 .dropdown-content a {
   font-size: 0.938rem;
   font-family: "Barlow Semi Condensed";
-  color: #fdcae1;
-  background-color: #fdcae1;
+  color: #555;
+  background-color: #efefef;
   font-weight: 700;
+}
+
+/* Estilos seccion productos carousel*/
+.container-carousel {
+  background-color: whitesmoke;
+}
+
+.carousel-inner img {
+  border: solid black 10px;
 }
 
 /* Estilos seccion productos destacados*/
@@ -34,11 +47,25 @@
   font-family: "Barlow Semi Condensed";
   font-size: 1.563rem;
   font-weight: 900;
+  border-bottom: solid #fdcae1;
 }
 
 .button-productos {
   font-family: "Barlow Semi Condensed";
   font-size: 0.75rem;
+}
+
+.productos {
+  background-color: whitesmoke;
+}
+
+.link-productos button {
+  background-color: #fdcae1;
+  color: #ffffff;
+}
+
+.altar, .cuadro-deluz, .kit-sahumador {
+  background-color: white;
 }
 
 /* Estilos seccion video*/
@@ -49,6 +76,14 @@ h3 {
 }
 
 /* Estilos footer*/
+footer {
+  background-color: black;
+}
+
+strong {
+  color: whitesmoke;
+}
+
 .tel-contacto, .email-contacto {
   color: white;
   font-family: Sans-serif;
@@ -74,7 +109,25 @@ h3 {
   font-weight: 900;
 }
 
+.descripcion-equipo {
+  font-family: "Barlow Semi Condensed";
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
 /* Estilos pagina cuadro de luz*/
+.tittle-mira {
+  font-family: "Barlow Semi Condensed";
+  font-size: 0.938rem;
+}
+
+.tittle-cuadrosdeluz, .tittle-kit, .tittle-altar {
+  font-family: "Barlow Semi Condensed";
+  font-size: 1.563rem;
+  font-weight: 900;
+  border-bottom: solid #fdcae1;
+}
+
 .item, .item-precio {
   font-family: "Barlow Semi Condensed";
   font-size: 0.938rem;
@@ -135,7 +188,6 @@ header {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -156,7 +208,6 @@ header {
 .dropdown .dropbtn {
   border: none;
   outline: none;
-  color: white;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -230,7 +281,7 @@ header {
     text-align: left;
   }
   .dropdown-content a {
-    background-color: black;
+    background-color: white;
     margin-top: 3%;
   }
   .dropdown {
@@ -243,10 +294,6 @@ header {
   }
 }
 
-.container-carousel {
-  background-color: whitesmoke;
-}
-
 .carousel {
   margin-top: 1%;
   margin-bottom: 1%;
@@ -256,7 +303,6 @@ header {
 .carousel-inner img {
   width: 100%;
   border-radius: 10px;
-  border: solid black 10px;
 }
 
 .tittle-instagram {
@@ -290,17 +336,12 @@ header {
 
 /*diseño del footer prederterminado*/
 footer {
-  background-color: black;
   text-align: center;
   padding-bottom: 5%;
 }
 
 #container-footer {
   margin-left: 0;
-}
-
-strong {
-  color: whitesmoke;
 }
 
 .redessociales {
@@ -348,10 +389,6 @@ strong {
   }
 }
 
-.productos {
-  background-color: whitesmoke;
-}
-
 .destacados {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -369,10 +406,6 @@ strong {
 
 .tittle-productos, .tittle-destacados {
   text-align: center;
-}
-
-.tittle-destacados {
-  border-bottom: solid #fdcae1;
 }
 
 .container-productos {
@@ -406,7 +439,6 @@ strong {
 }
 
 .kit-sahumador {
-  background-color: white;
   height: 70%;
   margin-right: 2%;
   padding-bottom: 3%;
@@ -415,7 +447,6 @@ strong {
 }
 
 .cuadro-deluz {
-  background-color: white;
   height: 70%;
   margin-right: 2%;
   padding-bottom: 3%;
@@ -435,7 +466,6 @@ strong {
 }
 
 .altar {
-  background-color: white;
   height: 70%;
   padding-bottom: 3%;
   border-radius: 0px 0px 20px 20px;
@@ -456,13 +486,11 @@ strong {
 }
 
 .link-productos button {
-  background-color: #fdcae1;
   border: none;
   padding-top: 1%;
   padding-bottom: 1%;
   padding-right: 1%;
   padding-left: 1%;
-  color: #ffffff;
   font-weight: 700;
 }
 
@@ -474,9 +502,6 @@ strong {
 @media screen and (min-width: 300px) and (max-width: 508px) {
   .row > * {
     padding-right: 0;
-  }
-  .productos {
-    background-color: white;
   }
   .container-productos {
     -webkit-box-pack: center;
@@ -529,10 +554,6 @@ strong {
 
 .container {
   padding-top: 5%;
-}
-
-.descripcion-equipo {
-  color: black;
 }
 
 .row-parrafo {
@@ -667,14 +688,39 @@ a {
   padding-top: 1%;
 }
 
-/* Inicio configuración pagina cuadro de luz*/
 #galeria {
   position: relative;
+  padding-bottom: 8%;
 }
 
 .img-bolsacompra {
   width: auto;
-  height: 25px;
+  height: 23px;
+}
+
+.tittle-mira, .tittle-cuadrosdeluz {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.img-deseo:hover, .img-mandala:hover {
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+/* Inicio configuración pagina cuadro de luz*/
+#galeria {
+  position: relative;
+  padding-bottom: 8%;
+}
+
+.img-bolsacompra {
+  width: auto;
+  height: 23px;
 }
 
 .tittle-mira, .tittle-cuadrosdeluz {
@@ -709,6 +755,30 @@ a {
 .img-magico:hover {
   -webkit-transform: scale(1.4);
   transform: 1.4;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+#galeria {
+  position: relative;
+  padding-bottom: 8%;
+}
+
+.img-bolsacompra {
+  width: auto;
+  height: 23px;
+}
+
+.tittle-mira, .tittle-cuadrosdeluz {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.img-kit:hover, .img-refilsahumo:hover {
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
   -webkit-transition: all 3s;
   transition: all 3s;
 }

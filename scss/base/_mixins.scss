@@ -1,17 +1,5 @@
 /*configuraciones variables: sección productos destacados*/
 
-@mixin gridproducts ($display,$padding,$margin,$justifyitems,$gridtemplaterows,$backgroundcolor,$fontsize,$textdecor,$borde) {
-    display: $display;
-    padding-top: $padding;
-    margin-top: $margin;
-    justify-items: $justifyitems;
-    grid-template-rows: $gridtemplaterows;
-    background-color:$backgroundcolor;
-    font-size: $fontsize;
-    text-decoration: $textdecor;
-    border-bottom: $borde;
-}
-
 @mixin productos ($padding,$borderadiusleft,$borderadiusright,$borderbottom,$backgroundcolor,$textalign) {
     
     padding: $padding;
