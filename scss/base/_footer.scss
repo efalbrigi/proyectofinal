@@ -3,6 +3,7 @@
 footer {
     text-align: center;
     padding-bottom: 5%;
+    padding-top: 5%;
 }
 
 #container-footer{
@@ -29,7 +30,7 @@ footer {
     margin-top: 5%;
 }
 
-@media screen and (min-width: 300px) and (max-width: 508px) {
+@media screen and (min-width: 300px) and (max-width: 508px)  {
     footer {
         background-color: black;
         text-align: center;
@@ -61,4 +62,41 @@ footer {
     }
 
 
+}
+
+@media screen and (min-width: 509px) and (max-width: 1023px) {
+    
+    footer {
+        background-color: black;
+        text-align: center;
+        padding-bottom: 5%;
+        margin-top: 5%;
+        
+    }
+
+    .secciones{
+        margin-right: 0;
+        padding-right: 1%; 
+    }
+
+
+    .pagos{
+        margin-top: 10%;
+        padding-bottom: 5%;  
+    }
+
+    
+    .contacto{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .js-newsletter{
+        padding-left: 0;
+    }
+
+    #container-footer{
+        margin-left: auto;
+    }
+    
 }

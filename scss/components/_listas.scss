@@ -18,7 +18,11 @@ solid #FACC2E,
 solid #fa2edf,
 solid black,
 solid #fdcae1,
-solid #555;
+solid #555,
+solid white;
+
+
+
 
 $fuentes:
 Sans-serif,
@@ -38,6 +42,7 @@ $fuentestamaños:
 2rem,
 3rem,
 0.3rem;
+
 
 
 /* header*/
@@ -74,15 +79,11 @@ $fuentestamaños:
 
 /* Estilos seccion productos carousel*/
 
-.container-carousel{
-
-    background-color: nth($colores,5);
-
-}
-
 .carousel-inner img{
-    border: nth($bordes,3) 10px;
+    border: nth($bordes,6) 5px;
 }
+
+
 
 /* Estilos seccion productos destacados*/
 
@@ -103,9 +104,8 @@ $fuentestamaños:
     font-size: nth($fuentestamaños,1);
 }
 
-.productos{
-    background-color: nth($colores,5);
-}
+
+
 
 .link-productos button{
     background-color: nth($colores,8);
@@ -117,6 +117,8 @@ $fuentestamaños:
 }
 
 /* Estilos seccion video*/
+
+
 
 h3{
     font-family: nth($fuentes,2);

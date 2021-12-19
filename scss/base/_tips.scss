@@ -22,9 +22,7 @@ a{
     padding-bottom: 2%;
 }
 
-.container {
-    padding-top: 5%;
-}
+
 
 .row-tips{
     
@@ -76,4 +74,59 @@ a{
 
 
 
+}
+
+@media screen and (min-width: 509px) and (max-width: 1023px) {
+
+    a{
+        text-decoration: none;
+       
+    }
+    
+    
+    .title-tips {
+        justify-content: center;
+        padding-top: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+    }
+    
+    .container-tips {
+        display: flex;
+        text-align: center;
+        margin-left: -10%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    
+    
+    
+    .row-tips{
+        
+        margin-left: 0%;
+    
+        p{
+            text-align: center;
+        }
+       
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img-logo {
+        max-width: 100%;
+        width: 5%;
+        margin-bottom: 3%;
+    }
+    
+    
+    .mujer-sahumando{
+        display: block;
+        margin: auto;
+        width: 100%;
+        
+    }
 }
